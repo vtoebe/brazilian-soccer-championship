@@ -31,8 +31,6 @@ public class Main {
 
         generateDir(RANKING_DIR);
         writeRankingFile(ranking.generateRanking());
-
-        System.out.println("terminou");
     }
 
     public static void getCsvData(String lineFromFile) throws ParseException {
