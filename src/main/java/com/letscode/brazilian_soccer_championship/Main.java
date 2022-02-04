@@ -16,8 +16,6 @@ public class Main {
     public static Set<Game> games;
     public static Set<Team> teams = new HashSet<>();
 
-    public static final String RANKING_DIR = "src/main/resources/ranking/";
-    public static final String TEAMS_DIR = "src/main/resources/teams/";
     public static final String CHAMPIONSHIP_FILE_PATH = "src/main/resources/brazilian-soccer-championship-results.csv";
 
     public static void main(String[] args) {
@@ -30,18 +28,13 @@ public class Main {
             e.printStackTrace();
         }
 
-//        getTeamsList();
-//        setTeams();
-//
-//        Ranking ranking = new Ranking(teams);
-//
-//        generateDir(TEAMS_DIR);
-//        writeTeamFile();
-//
-//        generateDir(RANKING_DIR);
-//        writeRankingFile(ranking.generateRanking());
+        getTeamsList();
+        setTeams();
 
-        System.out.println("terminou");
+        Ranking ranking = new Ranking(teams);
+
+        writeTeamFile(teams);
+        writeRankingFile(ranking.generateRanking());
     }
 
 
