@@ -47,7 +47,7 @@ public class FileService {
     public static <E> void writeFile(Collection<E> source, String dir, String file,String... header){
         generateDir(dir);
         try {
-            PrintWriter fileWriter = new PrintWriter(new FileWriter(dir + file, true));
+            PrintWriter fileWriter = new PrintWriter(new FileWriter(dir + file, false));
             fileWriter.print(Arrays.toString(header).replace("[", "").replace("]", ""));
             source.forEach(fileWriter::print);
             fileWriter.close();
