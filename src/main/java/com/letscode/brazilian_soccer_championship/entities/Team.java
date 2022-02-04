@@ -1,7 +1,6 @@
 package com.letscode.brazilian_soccer_championship.entities;
 
 import lombok.EqualsAndHashCode;
-import lombok.Getter;
 import lombok.Data;
 
 import java.util.*;
@@ -9,7 +8,6 @@ import java.util.*;
 import static java.util.Comparator.*;
 
 @Data
-@Getter
 @EqualsAndHashCode
 public class Team implements Comparable<Team>{
     private String name;
@@ -25,9 +23,7 @@ public class Team implements Comparable<Team>{
         this.dir = name + ".txt";
     }
 
-    public Team(){}
-
-    public void setGames(Game game){
+    public void addGames(Game game){
         games.add(game);
     }
 
