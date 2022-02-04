@@ -1,17 +1,18 @@
 package com.letscode.brazilian_soccer_championship;
 
 import com.letscode.brazilian_soccer_championship.entities.Game;
-import com.letscode.brazilian_soccer_championship.entities.Ranking;
 import com.letscode.brazilian_soccer_championship.entities.Team;
 
+import java.io.IOException;
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.*;
+import java.util.HashSet;
+import java.util.Objects;
+import java.util.Set;
 
 import static com.letscode.brazilian_soccer_championship.services.FileManager.*;
 
 public class Main {
-    public static Set<Game> games = new HashSet<>();
+    public static Set<Game> games;
     public static Set<Team> teams = new HashSet<>();
 
     public static final String RANKING_DIR = "src/main/resources/ranking/";
@@ -19,44 +20,27 @@ public class Main {
     public static final String CHAMPIONSHIP_FILE_PATH = "src/main/resources/brazilian-soccer-championship-results.csv";
 
     public static void main(String[] args) {
-        fileReader(CHAMPIONSHIP_FILE_PATH);
+        try {
+            games = getGamesFromFile(CHAMPIONSHIP_FILE_PATH);
+            System.out.println(games);
+        } catch (IOException | ParseException e) {
+            e.printStackTrace();
+        }
 
-        getTeamsList();
-        setTeams();
-
-        Ranking ranking = new Ranking(teams);
-
-        generateDir(TEAMS_DIR);
-        writeTeamFile();
-
-        generateDir(RANKING_DIR);
-        writeRankingFile(ranking.generateRanking());
+//        getTeamsList();
+//        setTeams();
+//
+//        Ranking ranking = new Ranking(teams);
+//
+//        generateDir(TEAMS_DIR);
+//        writeTeamFile();
+//
+//        generateDir(RANKING_DIR);
+//        writeRankingFile(ranking.generateRanking());
 
         System.out.println("terminou");
     }
 
-    public static void getCsvData(String lineFromFile) throws ParseException {
-
-        if (!Objects.equals(lineFromFile, "")){
-            String[] splittedLine = lineFromFile.split(";");
-            
-            games.add(Game.builder()
-                    .home(splittedLine[0])
-                    .visitor(splittedLine[1])
-                    .homeScore(Integer.parseInt(splittedLine[2]))
-                    .visitorScore(Integer.parseInt(splittedLine[3]))
-                    .date(new SimpleDateFormat("dd/MM/yyyy").parse(splittedLine[4]))
-                    .build()
-            );
-        }
-    }
-
-    public static void getTeamsList(){
-        for(Game game : games){
-            teams.add(new Team(game.getHome()));
-            teams.add(new Team(game.getVisitor()));
-        }
-    }
 
     public static void setTeams(){
         for (Team team : teams){
