@@ -44,11 +44,11 @@ public class FileService {
 
     public static void generateDir(String dir) { new File(dir).mkdir(); }
 
-    public static <E> void writeFile(Collection<E> source, String dir, String file,String... header){
+    public static <E> void writeFile(Collection<E> source, String dir, String file, String header){
         generateDir(dir);
         try {
             PrintWriter fileWriter = new PrintWriter(new FileWriter(dir + file, false));
-            fileWriter.print(Arrays.toString(header).replace("[", "").replace("]", ""));
+            fileWriter.print(header);
             source.forEach(fileWriter::print);
             fileWriter.close();
         } catch (IOException e) { e.printStackTrace(); }
