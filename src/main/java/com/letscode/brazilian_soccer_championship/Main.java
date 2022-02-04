@@ -15,7 +15,7 @@ import static com.letscode.brazilian_soccer_championship.services.TeamService.ge
 
 public class Main {
     public static Set<Game> games;
-    public static Set<Team> teams = new HashSet<>();
+    public static Set<Team> teams;
 
     public static void main(String[] args) {
         try {
