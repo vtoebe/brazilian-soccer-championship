@@ -1,16 +1,19 @@
 package com.letscode.brazilian_soccer_championship.services;
 
-import com.letscode.brazilian_soccer_championship.entities.Game;
+import com.letscode.brazilian_soccer_championship.Main;
 import com.letscode.brazilian_soccer_championship.entities.Team;
 
 import java.io.*;
 import java.text.ParseException;
 import java.util.ArrayList;
+import java.util.Set;
 
 import static com.letscode.brazilian_soccer_championship.Main.*;
 import static java.nio.charset.StandardCharsets.UTF_8;
 
 public class FileManager {
+    public static final String RANKING_DIR = "src/main/resources/ranking/";
+    public static final String TEAMS_DIR = "src/main/resources/teams/";
 
     public static void fileReader(String path) {
         try (BufferedReader buffReader = new BufferedReader(new FileReader(path, UTF_8))) {
@@ -27,36 +30,24 @@ public class FileManager {
         new File(dir).mkdir();
     }
 
-    public static void writeTeamFile(){
-        for (Team team: teams){
+    public static void writeTeamFile(Set<Team> teams){
+        generateDir(TEAMS_DIR);
+        for (Team team: Main.teams){
             try {
-                FileWriter file = new FileWriter(TEAMS_DIR+team.getDir(), true);
-                PrintWriter fileWriter = new PrintWriter(file);
-
-                for (Game game : team.getGames()){
-                    fileWriter.print(game);
-                }
+                PrintWriter fileWriter = new PrintWriter(new FileWriter(TEAMS_DIR+team.getDir(),true));
+                team.getGames().forEach(fileWriter::print);
                 fileWriter.close();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+            } catch (IOException e) { e.printStackTrace(); }
         }
     }
 
     public static void writeRankingFile(ArrayList<Team> ranking){
+        generateDir(RANKING_DIR);
         try {
-            FileWriter file = new FileWriter(RANKING_DIR+"ranking.txt", true);
-            PrintWriter fileWriter = new PrintWriter(file);
-
+            PrintWriter fileWriter = new PrintWriter(new FileWriter(RANKING_DIR+"ranking.txt", true));
             fileWriter.print(" P | V  | E  | D  | Time\n");
-
-            for (Team ranked : ranking){
-                fileWriter.print(ranked);
-            }
-
+            ranking.forEach(fileWriter::print);
             fileWriter.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        } catch (IOException e) { e.printStackTrace(); }
     }
 }
