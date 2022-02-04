@@ -33,6 +33,28 @@ public class Main {
         writeRankingFile(ranking.generateRanking());
     }
 
+    public static void getCsvData(String lineFromFile) throws ParseException {
+
+        if (!Objects.equals(lineFromFile, "")){
+            String[] splittedLine = lineFromFile.split(";");
+
+            games.add(Game.builder()
+                    .home(splittedLine[0])
+                    .visitor(splittedLine[1])
+                    .homeScore(Integer.parseInt(splittedLine[2]))
+                    .visitorScore(Integer.parseInt(splittedLine[3]))
+                    .date(new SimpleDateFormat("dd/MM/yyyy").parse(splittedLine[4]))
+                    .build()
+            );
+        }
+    }
+
+    public static void getTeamsList(){
+        for(Game game : games){
+            teams.add(new Team(game.getHome()));
+            teams.add(new Team(game.getVisitor()));
+        }
+    }
 
     public static void setTeams(){
         for (Team team : teams){

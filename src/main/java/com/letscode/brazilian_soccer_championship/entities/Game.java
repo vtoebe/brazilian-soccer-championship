@@ -1,16 +1,14 @@
 package com.letscode.brazilian_soccer_championship.entities;
 
 import lombok.Builder;
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
 import lombok.Data;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 @Data
-@Getter
 @Builder
-@EqualsAndHashCode
 public class Game {
     private String home;
     private String visitor;
