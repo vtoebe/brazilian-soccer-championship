@@ -1,6 +1,5 @@
 package com.letscode.brazilian_soccer_championship.services;
 
-import com.letscode.brazilian_soccer_championship.Main;
 import com.letscode.brazilian_soccer_championship.entities.Team;
 
 import java.io.*;
@@ -26,25 +25,23 @@ public class FileManager {
         }
     }
 
-    public static void generateDir(String dir) {
-        new File(dir).mkdir();
-    }
+    public static void generateDir(String dir) { new File(dir).mkdir(); }
 
-    public static void writeTeamFile(Set<Team> teams){
+    public static void writeTeamFile(Set<Team> teams) {
         generateDir(TEAMS_DIR);
-        for (Team team: Main.teams){
+        for (Team team : teams) {
             try {
-                PrintWriter fileWriter = new PrintWriter(new FileWriter(TEAMS_DIR+team.getDir(),true));
+                PrintWriter fileWriter = new PrintWriter(new FileWriter(TEAMS_DIR + team.getDir(), true));
                 team.getGames().forEach(fileWriter::print);
                 fileWriter.close();
             } catch (IOException e) { e.printStackTrace(); }
         }
     }
 
-    public static void writeRankingFile(ArrayList<Team> ranking){
+    public static void writeRankingFile(ArrayList<Team> ranking) {
         generateDir(RANKING_DIR);
         try {
-            PrintWriter fileWriter = new PrintWriter(new FileWriter(RANKING_DIR+"ranking.txt", true));
+            PrintWriter fileWriter = new PrintWriter(new FileWriter(RANKING_DIR + "ranking.txt", true));
             fileWriter.print(" P | V  | E  | D  | Time\n");
             ranking.forEach(fileWriter::print);
             fileWriter.close();
