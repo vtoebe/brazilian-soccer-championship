@@ -7,14 +7,16 @@ import java.util.*;
 @Data
 public class Ranking {
     public Set<Team> teams;
-    private String HEADER = " P | V  | E  | D  | Time\n";
-    private String RANKING_DIR = "src/main/resources/ranking/";
+
+    private String HEADER = " P | V  | E  | D  | TIME\n";
+    private String DIR = "src/main/resources/ranking/";
+    private String FILENAME = "ranking.txt";
 
     public Ranking(Set<Team> teams) {
         this.teams = teams;
     }
 
-    public ArrayList<Team> generateRanking(){
+    public ArrayList<Team> getRanking(){
         ArrayList<Team> ranking = new ArrayList<>(teams);
         ranking.sort(Comparator
                 .comparing(Team::getScore)

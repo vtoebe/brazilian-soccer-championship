@@ -9,18 +9,22 @@ import static java.util.Comparator.*;
 
 @Data
 @EqualsAndHashCode
-public class Team implements Comparable<Team>{
+public class Team{
     private String name;
     private int wins;
     private int ties;
     private int losses;
     private int score;
-    private String dir;
     private Set<Game> games = new TreeSet<>(comparing(Game::getDate));
+
+    private String HEADER = "   DATA    | MANDANTE    x    VISITANTE\n";
+    private String DIR = "src/main/resources/teams/";
+    private String FILENAME;
+
 
     public Team(String name) {
         this.name = name;
-        this.dir = name + ".txt";
+        this.FILENAME = name + ".txt";
     }
 
     public void addGames(Game game){
@@ -51,10 +55,5 @@ public class Team implements Comparable<Team>{
                 + String.format("%02d", ties) + " | "
                 + String.format("%02d", losses) + " | "
                 + name + "\n";
-    }
-
-    @Override
-    public int compareTo(Team t){
-        return this.getScore() - t.getScore();
     }
 }
