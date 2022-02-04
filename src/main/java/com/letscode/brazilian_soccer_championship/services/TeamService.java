@@ -2,13 +2,11 @@ package com.letscode.brazilian_soccer_championship.services;
 
 import com.letscode.brazilian_soccer_championship.entities.Game;
 import com.letscode.brazilian_soccer_championship.entities.Team;
-
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class TeamService {
+
+    private static final String TEAMS_DIR = "src/main/resources/teams/";
 
     public static Set<Team> getAllTeams(Set<Game> games){
         Set<Team> teams = new HashSet<>();
@@ -19,30 +17,30 @@ public class TeamService {
         return teams;
     }
 
-//    public static Set<Team> getAllTeams(Set<Game> games){
-//        Map<String, Team> teamsMap = new HashMap<>();
-//
-//        games.stream().forEach(game -> {
-//            if(teamsMap.containsKey(game.getHome())){
-//                teamsMap.get(game.getHome())
-//                        .getGames()
-//                        .add(game);
-//            }else{
-//                Team team = new Team(game.getHome());
-//                team.getGames().add(game);
-//                teamsMap.put(game.getHome(),team);
-//            }
-//            if(teamsMap.containsKey(game.getVisitor())){
-//                teamsMap.get(game.getVisitor())
-//                        .getGames()
-//                        .add(game);
-//            }else{
-//                Team team = new Team(game.getVisitor());
-//                team.getGames().add(game);
-//                teamsMap.put(game.getVisitor(),team);
-//            }
-//        });
-//
-//        return new HashSet<>(teamsMap.values());
-//    }
+    public static void setTeamGames(Team team, Set<Game> games){
+        for (Game game : games){
+            if (Objects.equals(game.getHome(), team.getName()) || Objects.equals(game.getVisitor(), team.getName())){
+                team.addGames(game);
+            }
+        }
+        team.checkData();
+        team.setScore();
+    }
+
+    public static void setAllGames(Set<Team> teams, Set<Game> games){
+        for (Team team: teams) {
+            setTeamGames(team, games);
+        }
+    }
+
+    public static void writeTeamFile(Team team) {
+        FileService.writeFile(team.getGames(), TEAMS_DIR, team.getDir());
+    }
+
+    public static void writeAllTeamFiles(Set<Team> teams) {
+        for (Team team : teams) {
+            writeTeamFile(team);
+        }
+    }
+
 }

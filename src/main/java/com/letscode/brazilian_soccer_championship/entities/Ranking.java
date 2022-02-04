@@ -5,9 +5,14 @@ import lombok.*;
 import java.util.*;
 
 @Data
-@AllArgsConstructor
 public class Ranking {
     public Set<Team> teams;
+    private String HEADER = " P | V  | E  | D  | Time\n";
+    private String RANKING_DIR = "src/main/resources/ranking/";
+
+    public Ranking(Set<Team> teams) {
+        this.teams = teams;
+    }
 
     public ArrayList<Team> generateRanking(){
         ArrayList<Team> ranking = new ArrayList<>(teams);
