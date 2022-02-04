@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
 import static java.nio.charset.StandardCharsets.UTF_8;
 
 public class FileService {
-    public static final String CHAMPIONSHIP_FILE_PATH = "src/main/resources/brazilian-soccer-championship-results.csv";
+    public static final String CHAMPIONSHIP_FILE_PATH = "src/main/resources/santander811matchesResult.csv";
     
     public static Set<Game> getGamesFromFile() throws IOException, ParseException {
         BufferedReader buffReader = new BufferedReader(new FileReader(CHAMPIONSHIP_FILE_PATH, UTF_8));
@@ -32,7 +32,7 @@ public class FileService {
                         .visitor(splitLine[1])
                         .homeScore(Integer.parseInt(splitLine[2]))
                         .visitorScore(Integer.parseInt(splitLine[3]))
-                        .date(( new SimpleDateFormat("dd/MM/yyyy").parse(splitLine[4])))
+                        .date(( new SimpleDateFormat("yyyy-MM-dd").parse(splitLine[4])))
                         .build();
             } catch (ParseException e) {
                 e.printStackTrace();
