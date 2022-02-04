@@ -6,8 +6,6 @@ import java.util.*;
 
 public class TeamService {
 
-    private static final String TEAMS_DIR = "src/main/resources/teams/";
-
     public static Set<Team> getAllTeams(Set<Game> games){
         Set<Team> teams = new HashSet<>();
         games.forEach(game -> {
@@ -28,19 +26,15 @@ public class TeamService {
     }
 
     public static void setAllGames(Set<Team> teams, Set<Game> games){
-        for (Team team: teams) {
-            setTeamGames(team, games);
-        }
+        teams.forEach(team -> setTeamGames(team, games));
     }
 
     public static void writeTeamFile(Team team) {
-        FileService.writeFile(team.getGames(), TEAMS_DIR, team.getDir());
+        FileService.writeFile(team.getGames(), team.getDIR(), team.getFILENAME(), team.getHEADER());
     }
 
     public static void writeAllTeamFiles(Set<Team> teams) {
-        for (Team team : teams) {
-            writeTeamFile(team);
-        }
+        teams.forEach(TeamService::writeTeamFile);
     }
 
 }

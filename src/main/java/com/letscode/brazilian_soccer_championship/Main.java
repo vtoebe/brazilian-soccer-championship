@@ -27,7 +27,7 @@ public class Main {
 
         Ranking ranking = new Ranking(teams);
 
-        writeFile(ranking.generateRanking(), ranking.getRANKING_DIR(), "ranking.txt", ranking.getHEADER());
+        writeFile(ranking.getRanking(), ranking.getDIR(), ranking.getFILENAME(), ranking.getHEADER());
         writeAllTeamFiles(teams);
     }
 

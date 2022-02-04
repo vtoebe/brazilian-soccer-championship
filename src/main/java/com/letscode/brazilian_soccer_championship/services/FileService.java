@@ -5,10 +5,7 @@ import com.letscode.brazilian_soccer_championship.entities.Game;
 import java.io.*;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Collection;
-import java.util.Date;
-import java.util.Objects;
-import java.util.Set;
+import java.util.*;
 import java.util.stream.Collectors;
 
 import static java.nio.charset.StandardCharsets.UTF_8;
@@ -26,16 +23,16 @@ public class FileService {
 
     public static Game buildGameFromLineFile(String lineFile) {
         Game game = null;
-        String[] splittedLine = lineFile.split(";");
+        String[] splitLine = lineFile.split(";");
 
-        if (splittedLine.length >= 5){
+        if (splitLine.length >= 5){
             try {
                 game = Game.builder()    // TODO
-                        .home(splittedLine[0])
-                        .visitor(splittedLine[1])
-                        .homeScore(Integer.parseInt(splittedLine[2]))
-                        .visitorScore(Integer.parseInt(splittedLine[3]))
-                        .date(( new SimpleDateFormat("dd/MM/yyyy").parse(splittedLine[4])))
+                        .home(splitLine[0])
+                        .visitor(splitLine[1])
+                        .homeScore(Integer.parseInt(splitLine[2]))
+                        .visitorScore(Integer.parseInt(splitLine[3]))
+                        .date(( new SimpleDateFormat("dd/MM/yyyy").parse(splitLine[4])))
                         .build();
             } catch (ParseException e) {
                 e.printStackTrace();
@@ -51,6 +48,7 @@ public class FileService {
         generateDir(dir);
         try {
             PrintWriter fileWriter = new PrintWriter(new FileWriter(dir + file, true));
+            fileWriter.print(Arrays.toString(header).replace("[", "").replace("]", ""));
             source.forEach(fileWriter::print);
             fileWriter.close();
         } catch (IOException e) { e.printStackTrace(); }
