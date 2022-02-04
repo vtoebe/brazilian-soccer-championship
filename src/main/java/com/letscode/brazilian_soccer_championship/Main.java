@@ -17,19 +17,14 @@ public class Main {
     public static Set<Game> games;
     public static Set<Team> teams = new HashSet<>();
 
-    public static final String CHAMPIONSHIP_FILE_PATH = "src/main/resources/brazilian-soccer-championship-results.csv";
-
     public static void main(String[] args) {
         try {
-            games = getGamesFromFile(CHAMPIONSHIP_FILE_PATH);
+            games = getGamesFromFile();
             teams = getAllTeams(games);
-            System.out.println(games);
-            System.out.println(teams);
         } catch (IOException | ParseException e) {
             e.printStackTrace();
         }
 
-        getTeamsList();
         setTeams();
 
         Ranking ranking = new Ranking(teams);

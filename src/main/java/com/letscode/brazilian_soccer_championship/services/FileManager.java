@@ -11,15 +11,15 @@ import java.util.Objects;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import static com.letscode.brazilian_soccer_championship.Main.*;
 import static java.nio.charset.StandardCharsets.UTF_8;
 
 public class FileManager {
+    public static final String CHAMPIONSHIP_FILE_PATH = "src/main/resources/brazilian-soccer-championship-results.csv";
     public static final String RANKING_DIR = "src/main/resources/ranking/";
     public static final String TEAMS_DIR = "src/main/resources/teams/";
     
-    public static Set<Game> getGamesFromFile(String filePath) throws IOException, ParseException {
-        BufferedReader buffReader = new BufferedReader(new FileReader(filePath, UTF_8));
+    public static Set<Game> getGamesFromFile() throws IOException, ParseException {
+        BufferedReader buffReader = new BufferedReader(new FileReader(CHAMPIONSHIP_FILE_PATH, UTF_8));
         return buffReader.lines().
                 map(FileManager::buildGameFromLineFile).
                 filter(Objects::nonNull).
