@@ -31,15 +31,13 @@ public class Main {
 
         generateDir(RANKING_DIR);
         writeRankingFile(ranking.generateRanking());
-
-        System.out.println("terminou");
     }
 
     public static void getCsvData(String lineFromFile) throws ParseException {
 
         if (!Objects.equals(lineFromFile, "")){
             String[] splittedLine = lineFromFile.split(";");
-            
+
             games.add(Game.builder()
                     .home(splittedLine[0])
                     .visitor(splittedLine[1])

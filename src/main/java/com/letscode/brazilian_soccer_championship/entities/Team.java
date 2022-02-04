@@ -35,25 +35,12 @@ public class Team implements Comparable<Team>{
 
     public void checkData(){
         for (Game game : games){
-            if (Objects.equals(game.getHome(), name)){
-                if( game.getHomeScore() > game.getVisitorScore()){
-                    wins++;
-                }
-                if (game.getHomeScore() < game.getVisitorScore()){
-                    losses++;
-                }
-            } else if (Objects.equals(game.getVisitor(), name)){
-                if( game.getHomeScore() > game.getVisitorScore()){
-                    losses++;
-                }
-                if (game.getHomeScore() < game.getVisitorScore()){
-                    wins++;
-                }
-            }
-
-            if (game.getHomeScore() == game.getVisitorScore()){
-                ties++;
-            }
+              if (game.getHomeScore() == game.getVisitorScore()){
+                  ties++;
+              } else if (Objects.equals(game.getHome(), name) && game.getHomeScore() > game.getVisitorScore()
+               || Objects.equals(game.getVisitor(), name) && game.getHomeScore() < game.getVisitorScore()){
+                  wins++;
+              } else losses++;
         }
     }
 
