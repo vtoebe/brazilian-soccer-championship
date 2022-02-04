@@ -26,7 +26,8 @@ public class Game {
 
     @Override
     public String toString() {
-        return date + " | "
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd/MM/yyyy");
+        return simpleDateFormat.format(date) + " | "
                 + home + " " + homeScore + " x "
                 + visitorScore + " " + visitor + "\n";
     }
