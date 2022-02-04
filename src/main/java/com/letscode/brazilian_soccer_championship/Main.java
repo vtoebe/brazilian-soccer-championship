@@ -10,6 +10,7 @@ import java.util.Objects;
 import java.util.Set;
 
 import static com.letscode.brazilian_soccer_championship.services.FileManager.*;
+import static com.letscode.brazilian_soccer_championship.services.TeamService.getAllTeams;
 
 public class Main {
     public static Set<Game> games;
@@ -22,7 +23,9 @@ public class Main {
     public static void main(String[] args) {
         try {
             games = getGamesFromFile(CHAMPIONSHIP_FILE_PATH);
+            teams = getAllTeams(games);
             System.out.println(games);
+            System.out.println(teams);
         } catch (IOException | ParseException e) {
             e.printStackTrace();
         }
