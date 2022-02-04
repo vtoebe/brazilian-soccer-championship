@@ -1,5 +1,6 @@
 package com.letscode.brazilian_soccer_championship.services;
 
+import com.letscode.brazilian_soccer_championship.entities.Game;
 import com.letscode.brazilian_soccer_championship.entities.Team;
 
 import java.io.*;
