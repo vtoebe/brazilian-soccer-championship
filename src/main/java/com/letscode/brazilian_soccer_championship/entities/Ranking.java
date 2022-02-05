@@ -1,16 +1,18 @@
 package com.letscode.brazilian_soccer_championship.entities;
 
-import lombok.*;
+import lombok.Data;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.Set;
 
 @Data
 public class Ranking {
     public Set<Team> teams;
 
-    private String HEADER = " P | V  | E  | D  | TIME\n";
+    private String HEADER = "Time;Vitorias;Empates;Derrotas;Pontos\n";
     private String DIR = "src/main/resources/ranking/";
-    private String FILENAME = "ranking.txt";
+    private String FILENAME = "ranking.csv";
 
     public Ranking(Set<Team> teams) {
         this.teams = teams;
