@@ -8,7 +8,8 @@ import java.io.IOException;
 import java.text.ParseException;
 import java.util.Set;
 
-import static com.letscode.brazilian_soccer_championship.services.FileService.*;
+import static com.letscode.brazilian_soccer_championship.services.FileService.getGamesFromFile;
+import static com.letscode.brazilian_soccer_championship.services.FileService.writeFile;
 import static com.letscode.brazilian_soccer_championship.services.TeamService.*;
 
 public class Main {

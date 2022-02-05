@@ -3,7 +3,6 @@ package com.letscode.brazilian_soccer_championship.entities;
 import lombok.Builder;
 import lombok.Data;
 
-import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
