@@ -23,6 +23,19 @@ public class Game {
         this.date = date;
     }
 
+    public String getWinner(){
+        int diffScores = this.homeScore - this.visitorScore;
+        String winner = null;
+
+        if(diffScores > 0){
+            winner = this.home;
+        } else if (diffScores < 0){
+            winner = this.visitor;
+        }
+
+        return winner;
+    }
+
     @Override
     public String toString() {
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd/MM/yyyy");
