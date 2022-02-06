@@ -30,4 +30,10 @@ public class Ranking {
 
         return ranking;
     }
+
+    public void setTeamRankingPosition(ArrayList<Team> ranking){
+        for (int i = 0; i<ranking.size(); i++){
+            ranking.get(i).setRankingPosition(i+1);
+        }
+    }
 }
