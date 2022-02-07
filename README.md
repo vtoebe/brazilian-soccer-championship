@@ -30,7 +30,7 @@
 > Simple GUI </br>
  > - File Selection </br>
  > - Directory Tree </br>
- > - File Selection / Visualization (Text and Table) </br>
+ > - File Visualization (Text and Table) </br>
  > - Team Interface (Ranking and Teams Data) </br>
 
 
