@@ -1,0 +1,39 @@
+   DATA    | MANDANTE    x    VISITANTE
+02/03/2022 | Atletico-GO 1 x 6 Sao Paulo
+02/03/2022 | Ceara 1 x 0 Sao Paulo
+02/03/2022 | Sao Paulo 4 x 0 Athletico Paranaense
+03/03/2022 | Fortaleza 6 x 0 Sao Paulo
+03/03/2022 | Sao Paulo 5 x 4 Coritiba
+04/03/2022 | Sao Paulo 0 x 5 Internacional
+04/03/2022 | Sao Paulo 3 x 6 Santos
+05/03/2022 | Coritiba 1 x 2 Sao Paulo
+05/03/2022 | Sao Paulo 6 x 2 Atletico-MG
+06/03/2022 | Sao Paulo 0 x 3 Corinthians
+07/03/2022 | Bragantino 3 x 0 Sao Paulo
+07/03/2022 | Cuiaba 2 x 1 Sao Paulo
+08/03/2022 | Sao Paulo 1 x 1 America-MG
+08/03/2022 | Sao Paulo 1 x 4 Fluminense
+09/03/2022 | America-MG 1 x 5 Sao Paulo
+09/03/2022 | Goias 1 x 1 Sao Paulo
+11/03/2022 | Corinthians 2 x 5 Sao Paulo
+11/03/2022 | Sao Paulo 1 x 4 Fortaleza
+13/03/2022 | Avai 2 x 2 Sao Paulo
+14/03/2022 | Sao Paulo 5 x 4 Palmeiras
+15/03/2022 | Sao Paulo 4 x 0 Atletico-GO
+16/03/2022 | Atletico-MG 0 x 6 Sao Paulo
+16/03/2022 | Fluminense 2 x 0 Sao Paulo
+17/03/2022 | Sao Paulo 6 x 5 Juventude
+19/03/2022 | Santos 2 x 6 Sao Paulo
+20/03/2022 | Flamengo 6 x 2 Sao Paulo
+20/03/2022 | Sao Paulo 2 x 2 Cuiaba
+22/03/2022 | Juventude 3 x 5 Sao Paulo
+22/03/2022 | Sao Paulo 6 x 5 Avai
+22/03/2022 | Sao Paulo 6 x 1 Bragantino
+24/03/2022 | Sao Paulo 1 x 4 Flamengo
+24/03/2022 | Sao Paulo 5 x 6 Goias
+26/03/2022 | Palmeiras 2 x 4 Sao Paulo
+27/03/2022 | Athletico Paranaense 1 x 5 Sao Paulo
+28/03/2022 | Botafogo 2 x 3 Sao Paulo
+29/03/2022 | Internacional 6 x 1 Sao Paulo
+29/03/2022 | Sao Paulo 0 x 4 Botafogo
+29/03/2022 | Sao Paulo 1 x 6 Ceara

@@ -5,6 +5,7 @@ import com.letscode.brazilian_soccer_championship.entities.Ranking;
 import com.letscode.brazilian_soccer_championship.entities.Team;
 
 import javax.swing.*;
+import java.awt.*;
 import java.util.Set;
 
 public class OutputUI {

@@ -1,0 +1,39 @@
+   DATA    | MANDANTE    x    VISITANTE
+02/03/2022 | Goias 4 x 4 America-MG
+03/03/2022 | Atletico-GO 5 x 1 Goias
+03/03/2022 | Botafogo 1 x 6 Goias
+03/03/2022 | Goias 6 x 1 Cuiaba
+03/03/2022 | Goias 0 x 3 Santos
+05/03/2022 | Cuiaba 0 x 3 Goias
+05/03/2022 | Internacional 0 x 5 Goias
+06/03/2022 | Goias 6 x 1 Fluminense
+07/03/2022 | Atletico-MG 0 x 3 Goias
+07/03/2022 | Bragantino 1 x 0 Goias
+07/03/2022 | Juventude 4 x 3 Goias
+09/03/2022 | Goias 5 x 6 Athletico Paranaense
+09/03/2022 | Goias 4 x 6 Atletico-GO
+09/03/2022 | Goias 1 x 1 Sao Paulo
+10/03/2022 | Goias 4 x 1 Avai
+10/03/2022 | Santos 2 x 0 Goias
+12/03/2022 | Fluminense 6 x 5 Goias
+12/03/2022 | Goias 5 x 3 Corinthians
+14/03/2022 | America-MG 3 x 2 Goias
+15/03/2022 | Corinthians 2 x 0 Goias
+16/03/2022 | Avai 1 x 6 Goias
+17/03/2022 | Ceara 5 x 4 Goias
+17/03/2022 | Flamengo 6 x 3 Goias
+17/03/2022 | Goias 2 x 2 Botafogo
+17/03/2022 | Goias 2 x 6 Juventude
+18/03/2022 | Fortaleza 2 x 3 Goias
+18/03/2022 | Goias 5 x 3 Coritiba
+18/03/2022 | Palmeiras 0 x 2 Goias
+19/03/2022 | Goias 1 x 2 Flamengo
+20/03/2022 | Coritiba 2 x 3 Goias
+21/03/2022 | Goias 2 x 2 Bragantino
+21/03/2022 | Goias 4 x 3 Internacional
+24/03/2022 | Sao Paulo 5 x 6 Goias
+25/03/2022 | Goias 0 x 5 Atletico-MG
+26/03/2022 | Athletico Paranaense 1 x 5 Goias
+26/03/2022 | Goias 3 x 1 Ceara
+27/03/2022 | Goias 5 x 3 Fortaleza
+31/03/2022 | Goias 0 x 1 Palmeiras

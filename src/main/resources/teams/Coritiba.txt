@@ -1,0 +1,39 @@
+   DATA    | MANDANTE    x    VISITANTE
+01/03/2022 | America-MG 5 x 1 Coritiba
+02/03/2022 | Coritiba 6 x 2 Athletico Paranaense
+03/03/2022 | Coritiba 1 x 1 America-MG
+03/03/2022 | Santos 4 x 6 Coritiba
+03/03/2022 | Sao Paulo 5 x 4 Coritiba
+05/03/2022 | Coritiba 1 x 2 Sao Paulo
+07/03/2022 | Coritiba 2 x 5 Atletico-MG
+07/03/2022 | Coritiba 2 x 3 Santos
+08/03/2022 | Coritiba 2 x 3 Corinthians
+09/03/2022 | Botafogo 5 x 2 Coritiba
+09/03/2022 | Coritiba 2 x 6 Fortaleza
+10/03/2022 | Internacional 1 x 6 Coritiba
+11/03/2022 | Corinthians 4 x 2 Coritiba
+11/03/2022 | Coritiba 1 x 4 Avai
+13/03/2022 | Coritiba 6 x 6 Bragantino
+14/03/2022 | Athletico Paranaense 2 x 6 Coritiba
+14/03/2022 | Cuiaba 3 x 2 Coritiba
+14/03/2022 | Flamengo 2 x 4 Coritiba
+14/03/2022 | Palmeiras 2 x 6 Coritiba
+15/03/2022 | Fluminense 1 x 6 Coritiba
+16/03/2022 | Atletico-GO 2 x 3 Coritiba
+16/03/2022 | Ceara 5 x 4 Coritiba
+17/03/2022 | Atletico-MG 5 x 2 Coritiba
+17/03/2022 | Bragantino 6 x 2 Coritiba
+17/03/2022 | Coritiba 3 x 0 Flamengo
+18/03/2022 | Coritiba 1 x 6 Fluminense
+18/03/2022 | Coritiba 3 x 1 Internacional
+18/03/2022 | Goias 5 x 3 Coritiba
+19/03/2022 | Fortaleza 0 x 0 Coritiba
+20/03/2022 | Coritiba 2 x 3 Goias
+20/03/2022 | Coritiba 3 x 1 Palmeiras
+22/03/2022 | Coritiba 6 x 2 Ceara
+23/03/2022 | Avai 3 x 1 Coritiba
+24/03/2022 | Coritiba 6 x 4 Botafogo
+25/03/2022 | Coritiba 1 x 4 Atletico-GO
+27/03/2022 | Coritiba 0 x 1 Cuiaba
+29/03/2022 | Coritiba 4 x 1 Juventude
+31/03/2022 | Juventude 4 x 1 Coritiba

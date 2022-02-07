@@ -1,0 +1,39 @@
+   DATA    | MANDANTE    x    VISITANTE
+02/03/2022 | Atletico-MG 3 x 3 Botafogo
+02/03/2022 | Botafogo 3 x 4 America-MG
+03/03/2022 | Botafogo 1 x 3 Bragantino
+03/03/2022 | Botafogo 1 x 6 Goias
+04/03/2022 | America-MG 3 x 1 Botafogo
+06/03/2022 | Fortaleza 4 x 6 Botafogo
+07/03/2022 | Santos 4 x 3 Botafogo
+08/03/2022 | Botafogo 6 x 4 Atletico-MG
+08/03/2022 | Bragantino 1 x 1 Botafogo
+08/03/2022 | Flamengo 5 x 2 Botafogo
+09/03/2022 | Botafogo 5 x 2 Coritiba
+09/03/2022 | Internacional 6 x 4 Botafogo
+10/03/2022 | Botafogo 3 x 3 Corinthians
+10/03/2022 | Fluminense 1 x 1 Botafogo
+13/03/2022 | Botafogo 4 x 6 Fortaleza
+14/03/2022 | Botafogo 2 x 4 Avai
+14/03/2022 | Botafogo 3 x 3 Internacional
+15/03/2022 | Botafogo 0 x 2 Ceara
+15/03/2022 | Cuiaba 4 x 6 Botafogo
+16/03/2022 | Botafogo 1 x 3 Cuiaba
+16/03/2022 | Botafogo 3 x 6 Santos
+17/03/2022 | Goias 2 x 2 Botafogo
+19/03/2022 | Botafogo 1 x 0 Athletico Paranaense
+19/03/2022 | Botafogo 5 x 4 Atletico-GO
+19/03/2022 | Juventude 6 x 4 Botafogo
+20/03/2022 | Athletico Paranaense 3 x 4 Botafogo
+20/03/2022 | Botafogo 2 x 1 Fluminense
+22/03/2022 | Corinthians 5 x 4 Botafogo
+24/03/2022 | Atletico-GO 1 x 4 Botafogo
+24/03/2022 | Coritiba 6 x 4 Botafogo
+25/03/2022 | Avai 5 x 1 Botafogo
+25/03/2022 | Botafogo 5 x 1 Flamengo
+26/03/2022 | Palmeiras 4 x 0 Botafogo
+27/03/2022 | Botafogo 2 x 2 Juventude
+28/03/2022 | Botafogo 0 x 0 Palmeiras
+28/03/2022 | Botafogo 2 x 3 Sao Paulo
+29/03/2022 | Sao Paulo 0 x 4 Botafogo
+30/03/2022 | Ceara 0 x 5 Botafogo
