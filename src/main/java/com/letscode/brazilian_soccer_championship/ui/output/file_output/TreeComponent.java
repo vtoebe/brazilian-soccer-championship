@@ -1,5 +1,7 @@
 package com.letscode.brazilian_soccer_championship.ui.output.file_output;
 
+import com.letscode.brazilian_soccer_championship.services.FileService;
+
 import java.awt.BorderLayout;
 import java.awt.Component;
 import java.awt.Container;
@@ -15,7 +17,8 @@ import javax.swing.tree.DefaultMutableTreeNode;
 import javax.swing.tree.DefaultTreeCellRenderer;
 
 public class TreeComponent extends JPanel {
-    File projectFile = new File(".\\src\\main\\resources");
+    File projectFile = new File("./src/main/resources");
+
     public JTree tree;
 
     public TreeComponent() {
