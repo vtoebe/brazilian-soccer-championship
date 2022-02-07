@@ -1,7 +1,7 @@
 package com.letscode.brazilian_soccer_championship.ui.output.team_output;
 
 import com.letscode.brazilian_soccer_championship.entities.Team;
-import com.letscode.brazilian_soccer_championship.ui.output.CustomIcon;
+import com.letscode.brazilian_soccer_championship.ui.shared.CustomIcon;
 
 import javax.swing.*;
 

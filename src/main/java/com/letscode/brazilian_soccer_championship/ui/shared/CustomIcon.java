@@ -1,4 +1,4 @@
-package com.letscode.brazilian_soccer_championship.ui.output;
+package com.letscode.brazilian_soccer_championship.ui.shared;
 
 import javax.swing.*;
 import java.awt.*;
