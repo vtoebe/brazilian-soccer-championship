@@ -1,0 +1,39 @@
+   DATA    | MANDANTE    x    VISITANTE
+01/03/2022 | Flamengo 1 x 4 Fluminense
+01/03/2022 | Juventude 2 x 4 Fluminense
+02/03/2022 | Fluminense 1 x 4 Atletico-GO
+04/03/2022 | Fluminense 3 x 3 Internacional
+05/03/2022 | America-MG 2 x 1 Fluminense
+05/03/2022 | Fluminense 1 x 2 Bragantino
+05/03/2022 | Fluminense 4 x 3 Corinthians
+05/03/2022 | Fortaleza 2 x 4 Fluminense
+06/03/2022 | Goias 6 x 1 Fluminense
+08/03/2022 | Fluminense 3 x 0 Cuiaba
+08/03/2022 | Sao Paulo 1 x 4 Fluminense
+09/03/2022 | Cuiaba 5 x 5 Fluminense
+10/03/2022 | Atletico-MG 5 x 2 Fluminense
+10/03/2022 | Fluminense 1 x 1 Botafogo
+10/03/2022 | Internacional 2 x 6 Fluminense
+10/03/2022 | Palmeiras 5 x 1 Fluminense
+11/03/2022 | Fluminense 6 x 0 Athletico Paranaense
+11/03/2022 | Fluminense 4 x 0 Avai
+12/03/2022 | Fluminense 6 x 5 Goias
+13/03/2022 | Fluminense 3 x 1 Palmeiras
+14/03/2022 | Ceara 1 x 2 Fluminense
+15/03/2022 | Fluminense 1 x 6 Coritiba
+15/03/2022 | Fluminense 3 x 6 Flamengo
+16/03/2022 | Fluminense 2 x 0 Sao Paulo
+18/03/2022 | Coritiba 1 x 6 Fluminense
+18/03/2022 | Fluminense 2 x 2 Ceara
+20/03/2022 | Botafogo 2 x 1 Fluminense
+21/03/2022 | Atletico-GO 4 x 4 Fluminense
+22/03/2022 | Bragantino 3 x 0 Fluminense
+22/03/2022 | Corinthians 3 x 2 Fluminense
+22/03/2022 | Fluminense 5 x 2 Atletico-MG
+24/03/2022 | Fluminense 4 x 2 Santos
+26/03/2022 | Fluminense 2 x 3 America-MG
+26/03/2022 | Fluminense 1 x 1 Juventude
+28/03/2022 | Athletico Paranaense 1 x 2 Fluminense
+28/03/2022 | Avai 0 x 2 Fluminense
+30/03/2022 | Fluminense 5 x 4 Fortaleza
+30/03/2022 | Santos 1 x 0 Fluminense

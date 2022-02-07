@@ -1,0 +1,39 @@
+   DATA    | MANDANTE    x    VISITANTE
+01/03/2022 | Santos 5 x 1 Atletico-MG
+02/03/2022 | Atletico-MG 0 x 5 Avai
+02/03/2022 | Atletico-MG 3 x 3 Botafogo
+02/03/2022 | Atletico-MG 0 x 4 Santos
+04/03/2022 | Atletico-MG 6 x 1 Atletico-GO
+04/03/2022 | Palmeiras 6 x 2 Atletico-MG
+05/03/2022 | Atletico-GO 4 x 1 Atletico-MG
+05/03/2022 | Internacional 1 x 5 Atletico-MG
+05/03/2022 | Sao Paulo 6 x 2 Atletico-MG
+07/03/2022 | Atletico-MG 0 x 3 Goias
+07/03/2022 | Coritiba 2 x 5 Atletico-MG
+08/03/2022 | Botafogo 6 x 4 Atletico-MG
+10/03/2022 | Atletico-MG 5 x 2 Fluminense
+11/03/2022 | Atletico-MG 3 x 4 Ceara
+12/03/2022 | Atletico-MG 0 x 1 Palmeiras
+13/03/2022 | Atletico-MG 0 x 6 Bragantino
+14/03/2022 | Bragantino 5 x 2 Atletico-MG
+16/03/2022 | Atletico-MG 0 x 6 Sao Paulo
+17/03/2022 | Atletico-MG 0 x 6 America-MG
+17/03/2022 | Atletico-MG 5 x 2 Coritiba
+17/03/2022 | Atletico-MG 5 x 2 Cuiaba
+17/03/2022 | Atletico-MG 4 x 1 Flamengo
+17/03/2022 | Ceara 1 x 4 Atletico-MG
+18/03/2022 | America-MG 0 x 3 Atletico-MG
+19/03/2022 | Atletico-MG 4 x 2 Internacional
+20/03/2022 | Atletico-MG 1 x 1 Juventude
+21/03/2022 | Cuiaba 5 x 3 Atletico-MG
+22/03/2022 | Fluminense 5 x 2 Atletico-MG
+23/03/2022 | Fortaleza 6 x 0 Atletico-MG
+25/03/2022 | Corinthians 4 x 4 Atletico-MG
+25/03/2022 | Goias 0 x 5 Atletico-MG
+26/03/2022 | Athletico Paranaense 6 x 6 Atletico-MG
+26/03/2022 | Atletico-MG 5 x 2 Athletico Paranaense
+26/03/2022 | Flamengo 3 x 4 Atletico-MG
+28/03/2022 | Atletico-MG 3 x 3 Fortaleza
+29/03/2022 | Juventude 3 x 2 Atletico-MG
+30/03/2022 | Atletico-MG 1 x 2 Corinthians
+31/03/2022 | Avai 3 x 6 Atletico-MG

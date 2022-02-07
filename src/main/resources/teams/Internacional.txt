@@ -1,0 +1,39 @@
+   DATA    | MANDANTE    x    VISITANTE
+01/03/2022 | Internacional 3 x 6 Corinthians
+02/03/2022 | Ceara 4 x 1 Internacional
+04/03/2022 | Fluminense 3 x 3 Internacional
+04/03/2022 | Fortaleza 5 x 0 Internacional
+04/03/2022 | Sao Paulo 0 x 5 Internacional
+05/03/2022 | Internacional 1 x 5 Atletico-MG
+05/03/2022 | Internacional 0 x 5 Goias
+05/03/2022 | Palmeiras 1 x 1 Internacional
+06/03/2022 | Internacional 4 x 3 Cuiaba
+07/03/2022 | Internacional 3 x 2 Ceara
+08/03/2022 | Internacional 3 x 0 Flamengo
+09/03/2022 | Flamengo 4 x 0 Internacional
+09/03/2022 | Internacional 6 x 4 Avai
+09/03/2022 | Internacional 6 x 4 Botafogo
+10/03/2022 | Avai 5 x 0 Internacional
+10/03/2022 | Internacional 1 x 6 Coritiba
+10/03/2022 | Internacional 2 x 6 Fluminense
+12/03/2022 | Internacional 1 x 2 Bragantino
+13/03/2022 | Internacional 4 x 2 Atletico-GO
+14/03/2022 | Botafogo 3 x 3 Internacional
+14/03/2022 | Internacional 6 x 6 Fortaleza
+16/03/2022 | Atletico-GO 3 x 6 Internacional
+16/03/2022 | Internacional 3 x 3 Juventude
+16/03/2022 | Internacional 4 x 3 Palmeiras
+17/03/2022 | Internacional 0 x 6 Santos
+18/03/2022 | Coritiba 3 x 1 Internacional
+19/03/2022 | America-MG 5 x 1 Internacional
+19/03/2022 | Atletico-MG 4 x 2 Internacional
+20/03/2022 | Bragantino 4 x 3 Internacional
+20/03/2022 | Corinthians 1 x 1 Internacional
+20/03/2022 | Internacional 0 x 2 America-MG
+20/03/2022 | Santos 6 x 2 Internacional
+21/03/2022 | Goias 4 x 3 Internacional
+22/03/2022 | Athletico Paranaense 3 x 6 Internacional
+26/03/2022 | Cuiaba 5 x 4 Internacional
+26/03/2022 | Juventude 2 x 6 Internacional
+27/03/2022 | Internacional 2 x 0 Athletico Paranaense
+29/03/2022 | Internacional 6 x 1 Sao Paulo

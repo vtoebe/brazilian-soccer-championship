@@ -1,0 +1,39 @@
+   DATA    | MANDANTE    x    VISITANTE
+02/03/2022 | Palmeiras 1 x 4 Cuiaba
+04/03/2022 | Ceara 0 x 1 Palmeiras
+04/03/2022 | Flamengo 4 x 5 Palmeiras
+04/03/2022 | Palmeiras 6 x 2 Atletico-MG
+04/03/2022 | Palmeiras 5 x 6 Juventude
+05/03/2022 | Athletico Paranaense 1 x 1 Palmeiras
+05/03/2022 | Palmeiras 1 x 1 Internacional
+08/03/2022 | Avai 3 x 3 Palmeiras
+09/03/2022 | Atletico-GO 3 x 1 Palmeiras
+09/03/2022 | Palmeiras 0 x 3 America-MG
+10/03/2022 | Palmeiras 5 x 1 Fluminense
+11/03/2022 | Santos 1 x 6 Palmeiras
+12/03/2022 | Atletico-MG 0 x 1 Palmeiras
+13/03/2022 | America-MG 4 x 4 Palmeiras
+13/03/2022 | Fluminense 3 x 1 Palmeiras
+13/03/2022 | Palmeiras 4 x 4 Santos
+14/03/2022 | Palmeiras 3 x 1 Atletico-GO
+14/03/2022 | Palmeiras 2 x 6 Coritiba
+14/03/2022 | Sao Paulo 5 x 4 Palmeiras
+15/03/2022 | Juventude 2 x 6 Palmeiras
+16/03/2022 | Cuiaba 4 x 3 Palmeiras
+16/03/2022 | Internacional 4 x 3 Palmeiras
+16/03/2022 | Palmeiras 3 x 6 Avai
+18/03/2022 | Palmeiras 3 x 3 Flamengo
+18/03/2022 | Palmeiras 0 x 2 Goias
+19/03/2022 | Fortaleza 4 x 2 Palmeiras
+20/03/2022 | Coritiba 3 x 1 Palmeiras
+22/03/2022 | Bragantino 1 x 4 Palmeiras
+22/03/2022 | Palmeiras 2 x 5 Athletico Paranaense
+24/03/2022 | Palmeiras 1 x 3 Ceara
+26/03/2022 | Palmeiras 4 x 0 Botafogo
+26/03/2022 | Palmeiras 6 x 1 Bragantino
+26/03/2022 | Palmeiras 5 x 3 Corinthians
+26/03/2022 | Palmeiras 2 x 4 Sao Paulo
+27/03/2022 | Corinthians 2 x 3 Palmeiras
+27/03/2022 | Palmeiras 0 x 5 Fortaleza
+28/03/2022 | Botafogo 0 x 0 Palmeiras
+31/03/2022 | Goias 0 x 1 Palmeiras

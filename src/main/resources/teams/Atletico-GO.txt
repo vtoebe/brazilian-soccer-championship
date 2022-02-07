@@ -1,0 +1,39 @@
+   DATA    | MANDANTE    x    VISITANTE
+02/03/2022 | Atletico-GO 1 x 6 Sao Paulo
+02/03/2022 | Fluminense 1 x 4 Atletico-GO
+03/03/2022 | Atletico-GO 5 x 1 Goias
+03/03/2022 | Ceara 5 x 3 Atletico-GO
+03/03/2022 | Flamengo 2 x 5 Atletico-GO
+04/03/2022 | Atletico-MG 6 x 1 Atletico-GO
+05/03/2022 | Atletico-GO 4 x 1 Atletico-MG
+05/03/2022 | Juventude 0 x 3 Atletico-GO
+06/03/2022 | Fortaleza 1 x 5 Atletico-GO
+09/03/2022 | Atletico-GO 3 x 1 Palmeiras
+09/03/2022 | Cuiaba 1 x 6 Atletico-GO
+09/03/2022 | Goias 4 x 6 Atletico-GO
+12/03/2022 | Corinthians 4 x 4 Atletico-GO
+13/03/2022 | Internacional 4 x 2 Atletico-GO
+14/03/2022 | Palmeiras 3 x 1 Atletico-GO
+15/03/2022 | Sao Paulo 4 x 0 Atletico-GO
+16/03/2022 | Atletico-GO 2 x 3 Coritiba
+16/03/2022 | Atletico-GO 3 x 6 Internacional
+17/03/2022 | Athletico Paranaense 5 x 0 Atletico-GO
+18/03/2022 | Atletico-GO 5 x 6 Ceara
+19/03/2022 | Atletico-GO 0 x 5 America-MG
+19/03/2022 | Botafogo 5 x 4 Atletico-GO
+20/03/2022 | America-MG 2 x 2 Atletico-GO
+21/03/2022 | Atletico-GO 2 x 1 Bragantino
+21/03/2022 | Atletico-GO 5 x 1 Corinthians
+21/03/2022 | Atletico-GO 4 x 4 Fluminense
+21/03/2022 | Avai 3 x 5 Atletico-GO
+22/03/2022 | Atletico-GO 3 x 4 Cuiaba
+22/03/2022 | Atletico-GO 5 x 5 Fortaleza
+23/03/2022 | Atletico-GO 1 x 2 Avai
+23/03/2022 | Atletico-GO 0 x 6 Santos
+24/03/2022 | Atletico-GO 1 x 4 Botafogo
+25/03/2022 | Coritiba 1 x 4 Atletico-GO
+26/03/2022 | Santos 2 x 3 Atletico-GO
+27/03/2022 | Bragantino 0 x 2 Atletico-GO
+29/03/2022 | Atletico-GO 3 x 3 Athletico Paranaense
+30/03/2022 | Atletico-GO 0 x 6 Juventude
+31/03/2022 | Atletico-GO 1 x 4 Flamengo

@@ -1,0 +1,39 @@
+   DATA    | MANDANTE    x    VISITANTE
+01/03/2022 | Internacional 3 x 6 Corinthians
+02/03/2022 | Corinthians 1 x 6 Avai
+03/03/2022 | Juventude 5 x 2 Corinthians
+04/03/2022 | Corinthians 3 x 0 Ceara
+05/03/2022 | Corinthians 4 x 3 Athletico Paranaense
+05/03/2022 | Fluminense 4 x 3 Corinthians
+06/03/2022 | Ceara 5 x 3 Corinthians
+06/03/2022 | Santos 0 x 6 Corinthians
+06/03/2022 | Sao Paulo 0 x 3 Corinthians
+08/03/2022 | Bragantino 6 x 3 Corinthians
+08/03/2022 | Coritiba 2 x 3 Corinthians
+10/03/2022 | Botafogo 3 x 3 Corinthians
+11/03/2022 | Corinthians 4 x 2 Coritiba
+11/03/2022 | Corinthians 2 x 5 Sao Paulo
+11/03/2022 | Fortaleza 1 x 0 Corinthians
+12/03/2022 | Corinthians 4 x 4 Atletico-GO
+12/03/2022 | Corinthians 2 x 5 Juventude
+12/03/2022 | Goias 5 x 3 Corinthians
+13/03/2022 | Corinthians 5 x 0 Cuiaba
+13/03/2022 | Cuiaba 1 x 3 Corinthians
+15/03/2022 | Corinthians 2 x 0 Goias
+19/03/2022 | Corinthians 1 x 2 Bragantino
+20/03/2022 | Corinthians 1 x 1 Internacional
+21/03/2022 | Atletico-GO 5 x 1 Corinthians
+22/03/2022 | Corinthians 5 x 4 Botafogo
+22/03/2022 | Corinthians 3 x 2 Fluminense
+23/03/2022 | Avai 1 x 6 Corinthians
+25/03/2022 | Corinthians 4 x 4 Atletico-MG
+26/03/2022 | Corinthians 5 x 3 Fortaleza
+26/03/2022 | Palmeiras 5 x 3 Corinthians
+27/03/2022 | Athletico Paranaense 6 x 6 Corinthians
+27/03/2022 | Corinthians 2 x 3 Palmeiras
+28/03/2022 | America-MG 5 x 0 Corinthians
+28/03/2022 | Corinthians 4 x 0 Santos
+29/03/2022 | Corinthians 0 x 1 America-MG
+30/03/2022 | Atletico-MG 1 x 2 Corinthians
+31/03/2022 | Corinthians 5 x 3 Flamengo
+31/03/2022 | Flamengo 4 x 0 Corinthians

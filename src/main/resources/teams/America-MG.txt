@@ -1,0 +1,39 @@
+   DATA    | MANDANTE    x    VISITANTE
+01/03/2022 | America-MG 5 x 1 Coritiba
+02/03/2022 | Botafogo 3 x 4 America-MG
+02/03/2022 | Goias 4 x 4 America-MG
+03/03/2022 | Coritiba 1 x 1 America-MG
+04/03/2022 | America-MG 3 x 1 Botafogo
+04/03/2022 | Athletico Paranaense 4 x 0 America-MG
+05/03/2022 | America-MG 2 x 1 Fluminense
+05/03/2022 | America-MG 5 x 1 Juventude
+05/03/2022 | Santos 4 x 1 America-MG
+07/03/2022 | Juventude 2 x 6 America-MG
+08/03/2022 | America-MG 6 x 6 Ceara
+08/03/2022 | Sao Paulo 1 x 1 America-MG
+09/03/2022 | America-MG 2 x 4 Fortaleza
+09/03/2022 | America-MG 1 x 5 Sao Paulo
+09/03/2022 | Palmeiras 0 x 3 America-MG
+11/03/2022 | America-MG 1 x 6 Cuiaba
+13/03/2022 | America-MG 4 x 4 Palmeiras
+13/03/2022 | America-MG 2 x 5 Santos
+14/03/2022 | America-MG 2 x 6 Flamengo
+14/03/2022 | America-MG 3 x 2 Goias
+16/03/2022 | Fortaleza 5 x 3 America-MG
+17/03/2022 | Atletico-MG 0 x 6 America-MG
+18/03/2022 | America-MG 0 x 3 Atletico-MG
+19/03/2022 | America-MG 5 x 1 Internacional
+19/03/2022 | Atletico-GO 0 x 5 America-MG
+20/03/2022 | America-MG 2 x 2 Atletico-GO
+20/03/2022 | Internacional 0 x 2 America-MG
+21/03/2022 | Flamengo 2 x 5 America-MG
+22/03/2022 | Cuiaba 2 x 1 America-MG
+24/03/2022 | America-MG 0 x 0 Bragantino
+24/03/2022 | Avai 4 x 3 America-MG
+24/03/2022 | Bragantino 2 x 6 America-MG
+25/03/2022 | America-MG 4 x 4 Athletico Paranaense
+25/03/2022 | America-MG 0 x 5 Avai
+25/03/2022 | Ceara 3 x 4 America-MG
+26/03/2022 | Fluminense 2 x 3 America-MG
+28/03/2022 | America-MG 5 x 0 Corinthians
+29/03/2022 | Corinthians 0 x 1 America-MG
