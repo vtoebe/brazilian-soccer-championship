@@ -20,8 +20,8 @@
 
 > object-oriented Progaming (OOP) </br>
 > use Maven or Gradle </br>
-> use a at least 2 dependencies </br>
-> use a at least 2 different data structures </br>
+> use at least 2 dependencies </br>
+> use at least 2 different data structures </br>
   
   #
   
