@@ -22,6 +22,13 @@ public class FileService {
                 collect(Collectors.toSet());
     }
 
+    public static Set<Game> getGamesFromFile(File csvFile) throws IOException {
+        return readLines(csvFile, UTF_8).stream().
+                map(GameService::buildGameFromLineFile).
+                filter(Objects::nonNull).
+                collect(Collectors.toSet());
+    }
+
     public static <E> void writeFile(Collection<E> source, String dir, String file, String header) {
         try {
             forceMkdir(new File(dir));
