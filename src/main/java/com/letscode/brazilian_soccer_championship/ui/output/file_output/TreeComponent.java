@@ -17,7 +17,7 @@ import javax.swing.tree.DefaultMutableTreeNode;
 import javax.swing.tree.DefaultTreeCellRenderer;
 
 public class TreeComponent extends JPanel {
-    File projectFile = new File(FileService.getOsPath(".", "src", "main", "resources"));
+    File projectFile = new File("./src/main/resources");
 
     public JTree tree;
 
