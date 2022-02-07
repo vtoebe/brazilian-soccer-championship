@@ -1,10 +1,11 @@
-package com.letscode.brazilian_soccer_championship.ui.output;
+package com.letscode.brazilian_soccer_championship.ui.output.team_output;
 
 import com.letscode.brazilian_soccer_championship.entities.Game;
 import com.letscode.brazilian_soccer_championship.entities.Team;
 
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
+import javax.swing.event.ListSelectionListener;
 import javax.swing.plaf.ColorUIResource;
 import javax.swing.plaf.basic.BasicScrollBarUI;
 import java.awt.*;
@@ -27,15 +28,8 @@ public class TeamUI {
         this.teams = teams;
     }
 
-    public static JFrame build(Set<Team> teams) {
-        JFrame frame = new JFrame("Game by Team");
-        frame.setContentPane(new TeamUI(teams).panel);
-
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.pack();
-        frame.setSize(500, 400);
-
-        return frame;
+    public JPanel getPanel() {
+        return panel;
     }
 
     private void createUIComponents() {
@@ -47,13 +41,7 @@ public class TeamUI {
         listModel.addAll(teamNames);
         teamList = new JList<>(listModel);
         teamList.setBorder(new EmptyBorder(10,10, 10, 10));
-        teamList.addListSelectionListener(e -> {
-            if(e.getValueIsAdjusting()){
-                int index = teamList.getSelectedIndex();
-                revalidateTeamGamesUI(sortedTeams, index);
-            }
-        });
-
+        teamList.addListSelectionListener(addListSelectionListener(sortedTeams));
 
         teamGames = new JPanel();
         teamGames.setLayout(new BoxLayout(teamGames, BoxLayout.Y_AXIS));
@@ -63,6 +51,16 @@ public class TeamUI {
         infoTeamPanel.setLayout(new BoxLayout(infoTeamPanel, BoxLayout.Y_AXIS));
 
         scroll = buildScroll();
+        revalidateTeamGamesUI(sortedTeams, 0);
+    }
+
+    private ListSelectionListener addListSelectionListener(List<Team> sortedTeams) {
+        return e -> {
+            if(e.getValueIsAdjusting()){
+                int index = teamList.getSelectedIndex();
+                revalidateTeamGamesUI(sortedTeams, index);
+            }
+        };
     }
 
 
