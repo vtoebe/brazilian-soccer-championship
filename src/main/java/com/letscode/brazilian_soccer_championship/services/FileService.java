@@ -31,4 +31,14 @@ public class FileService {
         } catch (IOException e) { e.printStackTrace(); }
     }
 
+    public static String getOsPath(String... dirs){
+        StringBuilder finalPath = new StringBuilder();
+        int i = 0;
+        do {
+            finalPath.append(dirs[i]).append(File.separator);
+            i++;
+        } while (i < dirs.length);
+        return finalPath.toString();
+    }
+
 }
