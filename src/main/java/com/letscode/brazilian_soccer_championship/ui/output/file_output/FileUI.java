@@ -11,11 +11,12 @@ import javax.swing.tree.DefaultMutableTreeNode;
 public class FileUI extends JFrame {
     TreeComponent treeComponent = new TreeComponent();
     TableComponent tableComponent = new TableComponent();
-    TextAreaComponent textAreaComponent = new TextAreaComponent(treeComponent.tree);
+    TextAreaComponent textAreaComponent = new TextAreaComponent();
     static JTree tree;
 
     // panels
-    JPanel cardPanel = new JPanel(), textPanel = new JPanel(), csvPanel = new JPanel();
+    JPanel cardPanel = new JPanel(), textPanel = new JPanel();
+    JScrollPane csvPanel;
 
     // layout
     java.awt.CardLayout cardLayout = new java.awt.CardLayout();
@@ -23,27 +24,31 @@ public class FileUI extends JFrame {
     public FileUI() {
         cardPanel.setLayout(cardLayout);
         cardPanel.setBackground(Color.red);
-        csvPanel.add(tableComponent);
+        csvPanel = new JScrollPane(tableComponent);
+
+
+        textPanel.add(textAreaComponent);
 
         cardPanel.add(textPanel, "1");
         cardPanel.add(csvPanel, "2");
 
-        textPanel.add(textAreaComponent);
-
         add(treeComponent, BorderLayout.WEST);
         add(cardPanel);
+
+        tree = treeComponent.tree;
 
         readFileFromTreeDirectory();
     }
 
     public void readFileFromTreeDirectory() {
-        tree = treeComponent.tree;
         tree.addTreeSelectionListener(e ->{
             DefaultMutableTreeNode selectedFile = (DefaultMutableTreeNode) tree.getLastSelectedPathComponent();
             String fileExtension = getFileExtension(selectedFile);
 
+            System.out.println(fileExtension);
+
             if (Objects.equals(fileExtension, "txt")){
-                textAreaComponent.readFileFromTreeDirectory(tree);
+                textAreaComponent.readFile(String.valueOf(selectedFile));
                 cardLayout.show(cardPanel, "1");
 
             } else {
