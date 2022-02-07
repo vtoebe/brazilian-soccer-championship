@@ -1,0 +1,39 @@
+   DATA    | MANDANTE    x    VISITANTE
+01/03/2022 | Ceara 3 x 0 Avai
+02/03/2022 | Ceara 4 x 1 Internacional
+02/03/2022 | Ceara 1 x 0 Sao Paulo
+03/03/2022 | Ceara 5 x 3 Atletico-GO
+03/03/2022 | Ceara 3 x 2 Cuiaba
+04/03/2022 | Avai 2 x 6 Ceara
+04/03/2022 | Ceara 0 x 1 Palmeiras
+04/03/2022 | Corinthians 3 x 0 Ceara
+05/03/2022 | Ceara 0 x 2 Juventude
+06/03/2022 | Ceara 5 x 3 Corinthians
+07/03/2022 | Internacional 3 x 2 Ceara
+08/03/2022 | America-MG 6 x 6 Ceara
+11/03/2022 | Atletico-MG 3 x 4 Ceara
+14/03/2022 | Ceara 1 x 2 Fluminense
+15/03/2022 | Botafogo 0 x 2 Ceara
+15/03/2022 | Ceara 2 x 4 Bragantino
+16/03/2022 | Ceara 5 x 4 Athletico Paranaense
+16/03/2022 | Ceara 5 x 4 Coritiba
+17/03/2022 | Ceara 1 x 4 Atletico-MG
+17/03/2022 | Ceara 5 x 4 Goias
+18/03/2022 | Atletico-GO 5 x 6 Ceara
+18/03/2022 | Fluminense 2 x 2 Ceara
+19/03/2022 | Santos 6 x 4 Ceara
+21/03/2022 | Ceara 1 x 0 Fortaleza
+22/03/2022 | Coritiba 6 x 2 Ceara
+22/03/2022 | Fortaleza 0 x 4 Ceara
+23/03/2022 | Ceara 2 x 6 Santos
+24/03/2022 | Ceara 3 x 4 Flamengo
+24/03/2022 | Juventude 4 x 2 Ceara
+24/03/2022 | Palmeiras 1 x 3 Ceara
+25/03/2022 | Ceara 3 x 4 America-MG
+26/03/2022 | Goias 3 x 1 Ceara
+27/03/2022 | Flamengo 0 x 4 Ceara
+28/03/2022 | Athletico Paranaense 0 x 6 Ceara
+28/03/2022 | Bragantino 6 x 2 Ceara
+28/03/2022 | Cuiaba 0 x 4 Ceara
+29/03/2022 | Sao Paulo 1 x 6 Ceara
+30/03/2022 | Ceara 0 x 5 Botafogo

@@ -1,0 +1,39 @@
+   DATA    | MANDANTE    x    VISITANTE
+01/03/2022 | Ceara 3 x 0 Avai
+02/03/2022 | Atletico-MG 0 x 5 Avai
+02/03/2022 | Corinthians 1 x 6 Avai
+02/03/2022 | Fortaleza 3 x 2 Avai
+03/03/2022 | Athletico Paranaense 2 x 6 Avai
+03/03/2022 | Avai 2 x 4 Athletico Paranaense
+04/03/2022 | Avai 2 x 6 Ceara
+05/03/2022 | Flamengo 5 x 1 Avai
+06/03/2022 | Cuiaba 0 x 3 Avai
+07/03/2022 | Avai 3 x 6 Fortaleza
+08/03/2022 | Avai 2 x 2 Bragantino
+08/03/2022 | Avai 3 x 3 Palmeiras
+09/03/2022 | Internacional 6 x 4 Avai
+10/03/2022 | Avai 5 x 0 Internacional
+10/03/2022 | Goias 4 x 1 Avai
+11/03/2022 | Bragantino 4 x 5 Avai
+11/03/2022 | Coritiba 1 x 4 Avai
+11/03/2022 | Fluminense 4 x 0 Avai
+11/03/2022 | Santos 2 x 5 Avai
+13/03/2022 | Avai 6 x 5 Cuiaba
+13/03/2022 | Avai 2 x 2 Sao Paulo
+14/03/2022 | Botafogo 2 x 4 Avai
+16/03/2022 | Avai 1 x 6 Goias
+16/03/2022 | Palmeiras 3 x 6 Avai
+17/03/2022 | Juventude 0 x 5 Avai
+18/03/2022 | Avai 6 x 0 Santos
+21/03/2022 | Avai 3 x 5 Atletico-GO
+22/03/2022 | Sao Paulo 6 x 5 Avai
+23/03/2022 | Atletico-GO 1 x 2 Avai
+23/03/2022 | Avai 1 x 6 Corinthians
+23/03/2022 | Avai 3 x 1 Coritiba
+24/03/2022 | Avai 4 x 3 America-MG
+25/03/2022 | America-MG 0 x 5 Avai
+25/03/2022 | Avai 5 x 1 Botafogo
+27/03/2022 | Avai 3 x 5 Juventude
+28/03/2022 | Avai 0 x 2 Fluminense
+30/03/2022 | Avai 0 x 5 Flamengo
+31/03/2022 | Avai 3 x 6 Atletico-MG

@@ -1,0 +1,39 @@
+   DATA    | MANDANTE    x    VISITANTE
+01/03/2022 | Bragantino 6 x 0 Flamengo
+01/03/2022 | Flamengo 1 x 4 Fluminense
+02/03/2022 | Flamengo 2 x 5 Santos
+03/03/2022 | Flamengo 2 x 5 Atletico-GO
+04/03/2022 | Flamengo 3 x 5 Athletico Paranaense
+04/03/2022 | Flamengo 4 x 5 Palmeiras
+05/03/2022 | Flamengo 5 x 1 Avai
+08/03/2022 | Flamengo 5 x 2 Botafogo
+08/03/2022 | Internacional 3 x 0 Flamengo
+09/03/2022 | Flamengo 4 x 0 Internacional
+10/03/2022 | Santos 0 x 3 Flamengo
+13/03/2022 | Fortaleza 6 x 6 Flamengo
+14/03/2022 | America-MG 2 x 6 Flamengo
+14/03/2022 | Flamengo 2 x 4 Coritiba
+15/03/2022 | Fluminense 3 x 6 Flamengo
+17/03/2022 | Atletico-MG 4 x 1 Flamengo
+17/03/2022 | Coritiba 3 x 0 Flamengo
+17/03/2022 | Flamengo 0 x 5 Cuiaba
+17/03/2022 | Flamengo 6 x 3 Goias
+17/03/2022 | Flamengo 0 x 1 Juventude
+18/03/2022 | Athletico Paranaense 5 x 1 Flamengo
+18/03/2022 | Palmeiras 3 x 3 Flamengo
+19/03/2022 | Flamengo 4 x 2 Bragantino
+19/03/2022 | Goias 1 x 2 Flamengo
+20/03/2022 | Flamengo 3 x 2 Fortaleza
+20/03/2022 | Flamengo 6 x 2 Sao Paulo
+21/03/2022 | Flamengo 2 x 5 America-MG
+24/03/2022 | Ceara 3 x 4 Flamengo
+24/03/2022 | Cuiaba 4 x 4 Flamengo
+24/03/2022 | Sao Paulo 1 x 4 Flamengo
+25/03/2022 | Botafogo 5 x 1 Flamengo
+26/03/2022 | Flamengo 3 x 4 Atletico-MG
+27/03/2022 | Flamengo 0 x 4 Ceara
+27/03/2022 | Juventude 1 x 0 Flamengo
+30/03/2022 | Avai 0 x 5 Flamengo
+31/03/2022 | Atletico-GO 1 x 4 Flamengo
+31/03/2022 | Corinthians 5 x 3 Flamengo
+31/03/2022 | Flamengo 4 x 0 Corinthians

@@ -1,0 +1,39 @@
+   DATA    | MANDANTE    x    VISITANTE
+01/03/2022 | Cuiaba 2 x 5 Fortaleza
+02/03/2022 | Fortaleza 3 x 2 Avai
+03/03/2022 | Fortaleza 3 x 0 Cuiaba
+03/03/2022 | Fortaleza 6 x 0 Sao Paulo
+04/03/2022 | Fortaleza 5 x 0 Internacional
+05/03/2022 | Fortaleza 2 x 4 Fluminense
+06/03/2022 | Fortaleza 3 x 0 Athletico Paranaense
+06/03/2022 | Fortaleza 1 x 5 Atletico-GO
+06/03/2022 | Fortaleza 4 x 6 Botafogo
+07/03/2022 | Avai 3 x 6 Fortaleza
+09/03/2022 | America-MG 2 x 4 Fortaleza
+09/03/2022 | Coritiba 2 x 6 Fortaleza
+11/03/2022 | Fortaleza 1 x 0 Corinthians
+11/03/2022 | Sao Paulo 1 x 4 Fortaleza
+13/03/2022 | Botafogo 4 x 6 Fortaleza
+13/03/2022 | Fortaleza 6 x 6 Flamengo
+14/03/2022 | Internacional 6 x 6 Fortaleza
+15/03/2022 | Bragantino 6 x 0 Fortaleza
+15/03/2022 | Santos 1 x 4 Fortaleza
+16/03/2022 | Fortaleza 5 x 3 America-MG
+18/03/2022 | Fortaleza 2 x 3 Goias
+19/03/2022 | Fortaleza 0 x 0 Coritiba
+19/03/2022 | Fortaleza 4 x 2 Palmeiras
+20/03/2022 | Flamengo 3 x 2 Fortaleza
+21/03/2022 | Ceara 1 x 0 Fortaleza
+22/03/2022 | Atletico-GO 5 x 5 Fortaleza
+22/03/2022 | Fortaleza 0 x 4 Ceara
+22/03/2022 | Juventude 0 x 6 Fortaleza
+23/03/2022 | Fortaleza 6 x 0 Atletico-MG
+23/03/2022 | Fortaleza 1 x 3 Bragantino
+24/03/2022 | Fortaleza 4 x 6 Juventude
+26/03/2022 | Corinthians 5 x 3 Fortaleza
+26/03/2022 | Fortaleza 2 x 5 Santos
+27/03/2022 | Goias 5 x 3 Fortaleza
+27/03/2022 | Palmeiras 0 x 5 Fortaleza
+28/03/2022 | Atletico-MG 3 x 3 Fortaleza
+30/03/2022 | Athletico Paranaense 4 x 5 Fortaleza
+30/03/2022 | Fluminense 5 x 4 Fortaleza

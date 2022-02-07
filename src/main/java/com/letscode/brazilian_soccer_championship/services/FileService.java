@@ -10,27 +10,24 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 import static java.nio.charset.StandardCharsets.UTF_8;
+import static org.apache.commons.io.FileUtils.*;
 
 public class FileService {
     public static final String CHAMPIONSHIP_FILE_PATH = "src/main/resources/santander811matchesResult.csv";
     
     public static Set<Game> getGamesFromFile() throws IOException, ParseException {
-        BufferedReader buffReader = new BufferedReader(new FileReader(CHAMPIONSHIP_FILE_PATH, UTF_8));
-        return buffReader.lines().
+        return readLines(new File(CHAMPIONSHIP_FILE_PATH), UTF_8).stream().
                 map(GameService::buildGameFromLineFile).
                 filter(Objects::nonNull).
                 collect(Collectors.toSet());
     }
 
-    public static void generateDir(String dir) { new File(dir).mkdir(); }
-
-    public static <E> void writeFile(Collection<E> source, String dir, String file, String header){
-        generateDir(dir);
+    public static <E> void writeFile(Collection<E> source, String dir, String file, String header) {
         try {
-            PrintWriter fileWriter = new PrintWriter(new FileWriter(dir + file, UTF_8, false));
-            fileWriter.print(header);
-            source.forEach(fileWriter::print);
-            fileWriter.close();
+            forceMkdir(new File(dir));
+            File writingFile = new File(dir + file);
+            write(writingFile, header, UTF_8,false);
+            writeLines(writingFile, source,"" , true);
         } catch (IOException e) { e.printStackTrace(); }
     }
 

@@ -1,0 +1,39 @@
+   DATA    | MANDANTE    x    VISITANTE
+01/03/2022 | Bragantino 6 x 0 Flamengo
+01/03/2022 | Bragantino 5 x 2 Santos
+03/03/2022 | Botafogo 1 x 3 Bragantino
+05/03/2022 | Fluminense 1 x 2 Bragantino
+07/03/2022 | Bragantino 1 x 0 Goias
+07/03/2022 | Bragantino 3 x 0 Sao Paulo
+07/03/2022 | Santos 2 x 5 Bragantino
+08/03/2022 | Avai 2 x 2 Bragantino
+08/03/2022 | Bragantino 1 x 1 Botafogo
+08/03/2022 | Bragantino 6 x 3 Corinthians
+11/03/2022 | Athletico Paranaense 6 x 2 Bragantino
+11/03/2022 | Bragantino 4 x 5 Avai
+11/03/2022 | Bragantino 0 x 5 Cuiaba
+12/03/2022 | Internacional 1 x 2 Bragantino
+12/03/2022 | Juventude 2 x 0 Bragantino
+13/03/2022 | Atletico-MG 0 x 6 Bragantino
+13/03/2022 | Coritiba 6 x 6 Bragantino
+14/03/2022 | Bragantino 5 x 2 Atletico-MG
+15/03/2022 | Bragantino 6 x 0 Fortaleza
+15/03/2022 | Ceara 2 x 4 Bragantino
+15/03/2022 | Cuiaba 0 x 0 Bragantino
+17/03/2022 | Bragantino 4 x 0 Athletico Paranaense
+17/03/2022 | Bragantino 6 x 2 Coritiba
+19/03/2022 | Corinthians 1 x 2 Bragantino
+19/03/2022 | Flamengo 4 x 2 Bragantino
+20/03/2022 | Bragantino 4 x 3 Internacional
+21/03/2022 | Atletico-GO 2 x 1 Bragantino
+21/03/2022 | Goias 2 x 2 Bragantino
+22/03/2022 | Bragantino 3 x 0 Fluminense
+22/03/2022 | Bragantino 1 x 4 Palmeiras
+22/03/2022 | Sao Paulo 6 x 1 Bragantino
+23/03/2022 | Fortaleza 1 x 3 Bragantino
+24/03/2022 | America-MG 0 x 0 Bragantino
+24/03/2022 | Bragantino 2 x 6 America-MG
+26/03/2022 | Palmeiras 6 x 1 Bragantino
+27/03/2022 | Bragantino 0 x 2 Atletico-GO
+28/03/2022 | Bragantino 6 x 2 Ceara
+31/03/2022 | Bragantino 4 x 3 Juventude

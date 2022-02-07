@@ -2,15 +2,13 @@ package com.letscode.brazilian_soccer_championship.services;
 
 import com.letscode.brazilian_soccer_championship.entities.Game;
 
+import java.text.Normalizer;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.text.Normalizer;
 
 public class GameService {
 
-
-    public static String removeAccents(String teamName)
-    {
+    public static String removeAccents(String teamName){
         teamName = Normalizer.normalize(teamName, Normalizer.Form.NFD);
         teamName = teamName.replaceAll("[\\p{InCombiningDiacriticalMarks}]", "");
         return teamName;

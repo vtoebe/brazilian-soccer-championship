@@ -1,0 +1,39 @@
+   DATA    | MANDANTE    x    VISITANTE
+02/03/2022 | Coritiba 6 x 2 Athletico Paranaense
+02/03/2022 | Sao Paulo 4 x 0 Athletico Paranaense
+03/03/2022 | Athletico Paranaense 2 x 6 Avai
+03/03/2022 | Avai 2 x 4 Athletico Paranaense
+04/03/2022 | Athletico Paranaense 4 x 0 America-MG
+04/03/2022 | Flamengo 3 x 5 Athletico Paranaense
+04/03/2022 | Santos 4 x 0 Athletico Paranaense
+05/03/2022 | Athletico Paranaense 1 x 1 Palmeiras
+05/03/2022 | Corinthians 4 x 3 Athletico Paranaense
+06/03/2022 | Fortaleza 3 x 0 Athletico Paranaense
+08/03/2022 | Athletico Paranaense 2 x 5 Cuiaba
+09/03/2022 | Goias 5 x 6 Athletico Paranaense
+11/03/2022 | Athletico Paranaense 6 x 2 Bragantino
+11/03/2022 | Fluminense 6 x 0 Athletico Paranaense
+12/03/2022 | Cuiaba 6 x 5 Athletico Paranaense
+14/03/2022 | Athletico Paranaense 2 x 6 Coritiba
+16/03/2022 | Ceara 5 x 4 Athletico Paranaense
+17/03/2022 | Athletico Paranaense 5 x 0 Atletico-GO
+17/03/2022 | Bragantino 4 x 0 Athletico Paranaense
+18/03/2022 | Athletico Paranaense 5 x 1 Flamengo
+19/03/2022 | Athletico Paranaense 6 x 2 Juventude
+19/03/2022 | Botafogo 1 x 0 Athletico Paranaense
+20/03/2022 | Athletico Paranaense 3 x 4 Botafogo
+22/03/2022 | Athletico Paranaense 3 x 6 Internacional
+22/03/2022 | Palmeiras 2 x 5 Athletico Paranaense
+25/03/2022 | America-MG 4 x 4 Athletico Paranaense
+26/03/2022 | Athletico Paranaense 6 x 6 Atletico-MG
+26/03/2022 | Athletico Paranaense 1 x 5 Goias
+26/03/2022 | Atletico-MG 5 x 2 Athletico Paranaense
+26/03/2022 | Juventude 6 x 5 Athletico Paranaense
+27/03/2022 | Athletico Paranaense 6 x 6 Corinthians
+27/03/2022 | Athletico Paranaense 1 x 5 Sao Paulo
+27/03/2022 | Internacional 2 x 0 Athletico Paranaense
+28/03/2022 | Athletico Paranaense 0 x 6 Ceara
+28/03/2022 | Athletico Paranaense 1 x 2 Fluminense
+29/03/2022 | Athletico Paranaense 6 x 0 Santos
+29/03/2022 | Atletico-GO 3 x 3 Athletico Paranaense
+30/03/2022 | Athletico Paranaense 4 x 5 Fortaleza

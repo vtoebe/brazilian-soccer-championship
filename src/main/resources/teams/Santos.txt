@@ -1,0 +1,39 @@
+   DATA    | MANDANTE    x    VISITANTE
+01/03/2022 | Bragantino 5 x 2 Santos
+01/03/2022 | Juventude 3 x 1 Santos
+01/03/2022 | Santos 5 x 1 Atletico-MG
+02/03/2022 | Atletico-MG 0 x 4 Santos
+02/03/2022 | Flamengo 2 x 5 Santos
+03/03/2022 | Goias 0 x 3 Santos
+03/03/2022 | Santos 4 x 6 Coritiba
+04/03/2022 | Santos 4 x 0 Athletico Paranaense
+04/03/2022 | Sao Paulo 3 x 6 Santos
+05/03/2022 | Santos 4 x 1 America-MG
+06/03/2022 | Santos 0 x 6 Corinthians
+07/03/2022 | Coritiba 2 x 3 Santos
+07/03/2022 | Santos 4 x 3 Botafogo
+07/03/2022 | Santos 2 x 5 Bragantino
+08/03/2022 | Cuiaba 6 x 2 Santos
+08/03/2022 | Santos 0 x 2 Juventude
+09/03/2022 | Santos 3 x 6 Cuiaba
+10/03/2022 | Santos 0 x 3 Flamengo
+10/03/2022 | Santos 2 x 0 Goias
+11/03/2022 | Santos 2 x 5 Avai
+11/03/2022 | Santos 1 x 6 Palmeiras
+13/03/2022 | America-MG 2 x 5 Santos
+13/03/2022 | Palmeiras 4 x 4 Santos
+15/03/2022 | Santos 1 x 4 Fortaleza
+16/03/2022 | Botafogo 3 x 6 Santos
+17/03/2022 | Internacional 0 x 6 Santos
+18/03/2022 | Avai 6 x 0 Santos
+19/03/2022 | Santos 6 x 4 Ceara
+19/03/2022 | Santos 2 x 6 Sao Paulo
+20/03/2022 | Santos 6 x 2 Internacional
+23/03/2022 | Atletico-GO 0 x 6 Santos
+23/03/2022 | Ceara 2 x 6 Santos
+24/03/2022 | Fluminense 4 x 2 Santos
+26/03/2022 | Fortaleza 2 x 5 Santos
+26/03/2022 | Santos 2 x 3 Atletico-GO
+28/03/2022 | Corinthians 4 x 0 Santos
+29/03/2022 | Athletico Paranaense 6 x 0 Santos
+30/03/2022 | Santos 1 x 0 Fluminense

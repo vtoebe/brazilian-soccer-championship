@@ -1,0 +1,39 @@
+   DATA    | MANDANTE    x    VISITANTE
+01/03/2022 | Juventude 2 x 4 Fluminense
+01/03/2022 | Juventude 3 x 1 Santos
+03/03/2022 | Juventude 5 x 2 Corinthians
+04/03/2022 | Palmeiras 5 x 6 Juventude
+05/03/2022 | America-MG 5 x 1 Juventude
+05/03/2022 | Ceara 0 x 2 Juventude
+05/03/2022 | Juventude 0 x 3 Atletico-GO
+06/03/2022 | Juventude 6 x 6 Cuiaba
+07/03/2022 | Juventude 2 x 6 America-MG
+07/03/2022 | Juventude 4 x 3 Goias
+08/03/2022 | Santos 0 x 2 Juventude
+12/03/2022 | Corinthians 2 x 5 Juventude
+12/03/2022 | Juventude 2 x 0 Bragantino
+15/03/2022 | Juventude 2 x 6 Palmeiras
+16/03/2022 | Internacional 3 x 3 Juventude
+17/03/2022 | Flamengo 0 x 1 Juventude
+17/03/2022 | Goias 2 x 6 Juventude
+17/03/2022 | Juventude 0 x 5 Avai
+17/03/2022 | Sao Paulo 6 x 5 Juventude
+19/03/2022 | Athletico Paranaense 6 x 2 Juventude
+19/03/2022 | Juventude 6 x 4 Botafogo
+20/03/2022 | Atletico-MG 1 x 1 Juventude
+22/03/2022 | Juventude 0 x 6 Fortaleza
+22/03/2022 | Juventude 3 x 5 Sao Paulo
+24/03/2022 | Fortaleza 4 x 6 Juventude
+24/03/2022 | Juventude 4 x 2 Ceara
+26/03/2022 | Cuiaba 6 x 2 Juventude
+26/03/2022 | Fluminense 1 x 1 Juventude
+26/03/2022 | Juventude 6 x 5 Athletico Paranaense
+26/03/2022 | Juventude 2 x 6 Internacional
+27/03/2022 | Avai 3 x 5 Juventude
+27/03/2022 | Botafogo 2 x 2 Juventude
+27/03/2022 | Juventude 1 x 0 Flamengo
+29/03/2022 | Coritiba 4 x 1 Juventude
+29/03/2022 | Juventude 3 x 2 Atletico-MG
+30/03/2022 | Atletico-GO 0 x 6 Juventude
+31/03/2022 | Bragantino 4 x 3 Juventude
+31/03/2022 | Juventude 4 x 1 Coritiba

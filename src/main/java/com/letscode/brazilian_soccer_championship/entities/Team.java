@@ -4,7 +4,6 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 
 import java.util.ArrayList;
-import java.util.Objects;
 
 import static java.util.Comparator.comparing;
 
@@ -16,6 +15,9 @@ public class Team {
     private int ties;
     private int losses;
     private int score;
+    private int goalsFor;
+    private int goalsAgainst;
+    private int rankingPosition;
     private ArrayList<Game> games = new ArrayList<>();
 
     private String HEADER = "   DATA    | MANDANTE    x    VISITANTE\n";
@@ -41,12 +43,25 @@ public class Team {
 
     public void checkData() {
         for (Game game : games) {
-            if (game.getHomeScore() == game.getVisitorScore()) {
+            String winner = game.getWinner();
+
+            if(winner != null){
+                if (winner.equals(name)){
+                    wins++;
+                }else{
+                    losses++;
+                }
+            }else {
                 ties++;
-            } else if (Objects.equals(game.getHome(), name) && game.getHomeScore() > game.getVisitorScore()
-                    || Objects.equals(game.getVisitor(), name) && game.getHomeScore() < game.getVisitorScore()){
-                wins++;
-            } else losses++;
+            }
+
+            if(game.getHome().equals(name)){
+                goalsFor += game.getHomeScore();
+                goalsAgainst += game.getVisitorScore();
+            }else{
+                goalsFor += game.getVisitorScore();
+                goalsAgainst += game.getHomeScore();
+            }
         }
     }
 
